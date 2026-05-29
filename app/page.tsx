@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import type { ReactNode } from "react";
 
@@ -439,7 +440,9 @@ export default function Home() {
           </div>
 
           <div className="copyright">
-            <p>&copy; 2026 ARC. All rights reserved.</p>
+            <p>
+              &copy; 2026 ARC. All rights reserved. <Link href="/privacy-policy">Privacy Policy</Link>
+            </p>
           </div>
         </div>
       </footer>
